@@ -1,0 +1,289 @@
+/*g-font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+.trade-feature-cout {
+    background: #2c1c7a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 0 300px 0;
+
+}
+
+.couter-box {
+    display: flex;
+    margin-bottom: 45px;
+
+
+}
+
+.couter-box i {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 15px;
+    background: rgba(21, 11, 68, 0.5);
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+}
+
+.counter.count-text {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    position: relative;
+}
+
+.counter.count-text.plus:after {
+    position: absolute;
+    content: '+'
+
+}
+
+.count-wrap p {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/*counter end*/
+
+
+/*trade area styling*/
+
+.trade-feature-area {}
+
+.trade-inner {
+    background: white;
+    margin-top: -210px;
+    box-shadow: 2px 3px 20px;
+    border-radius: 8px;
+    padding: 70px 40px 50px;
+
+}
+
+.feature-title {
+    text-align: center;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    left: 45%;
+    border-bottom: 2px solid;
+    z-index: -1;
+}
+
+.feature-title h4 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/*single feature card*/
+.trade-feature-carousel {
+    display: flex;
+
+}
+
+.single-carousel {
+    margin: 20px;
+}
+
+.single-carousel .card {
+    width: 300px padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.single-carousel .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.single-carousel img {
+    border-radius: 8px;
+    height: 250px;
+}
+
+.single-carousel .card-text {
+    font-size: 16px;
+    color: #4d4d4d;
+    text-align: justify;
+}
+
+
+.single-carousel .card-body a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+    transition: .3s;
+
+}
+
+.single-carousel a.read-btn i {
+    margin-right: 5px;
+}
+
+.single-carousel .card-body a:hover {
+    color: blue;
+}
+
+
+
+.owl-carousel button.owl-dot {
+    background: #ddd;
+    background-color: #D4D4D4;
+
+}
+
+.owl-dots {
+    text-align: center;
+
+}
+
+.owl-dots .owl-dot {
+    height: 6px;
+    width: 22px;
+    transition: 0.5s;
+    margin: 0 5px 5px;
+    border-radius: 2px;
+    background-color: #D4D4D4;
+
+}
+
+.owl-dots .owl-dot.active {
+    background-color: #1C00AF;
+    width: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*****
+*************************************************************************************************
+*************************************************************************************************
+*****
+*/
+
+
+@media(max-width:767px) {
+
+    .single-carousel .card {
+        width: 200px;
+    }
+
+
+
+    .single-carousel .card-text {
+        font-size: 14px;
+        color: #4d4d4d;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:575px) {
+    
+    
+    .couter-box i {
+    font-size: 25px;
+    
+    padding-top: 20px;
+    margin-right: 10px;
+   
+    height: 65px;
+    width: 65px;
+  
+}
+    .counter.count-text {
+    font-size: 35px;
+    }
+    
+    .count-wrap p {
+    font-size: 16px;
+    }
+    
+    
+    
+
+    .single-carousel .card {
+        width: 100%;
+    }
+
+
+
+    .single-carousel .card-text {
+        font-size: 14px;
+        color: #4d4d4d;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+}
